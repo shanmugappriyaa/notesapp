@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
-import { NotesDataContext } from "./NoteContext";
+import { NotesDataContext } from "../context/NoteContext";
 import { useParams } from "react-router-dom";
-import { CardIndexContext } from "./IndexContext";
-import DESCicon from "./assets/description.svg"
+import { CardIndexContext } from "../context/IndexContext";
+
 
 function Card(props) {
   const {notesData,setNotesData} = useContext(NotesDataContext)

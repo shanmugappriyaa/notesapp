@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Card from "./Card";
+import Card from "./component/Card";
 import "./App.css";
-import AddNote from "./AddNote";
-import NoteContext from "./NoteContext";
-import IndexContext from "./IndexContext";
+import AddNote from "./component/AddNote";
+import NoteContext from "./context/NoteContext";
+import IndexContext from "./context/IndexContext";
 import Descicon from "./assets/description.svg"
 
 function App() {

@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
-import { NotesDataContext } from "./NoteContext";
-import { CardIndexContext } from "./IndexContext";
+import { NotesDataContext } from "../context/NoteContext";
+import { CardIndexContext } from "../context/IndexContext";
 
 function AddNote(props) {
   const { notesData, setNotesData } = useContext(NotesDataContext);
