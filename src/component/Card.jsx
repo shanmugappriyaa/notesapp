@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { NotesDataContext } from "../context/NoteContext";
-import { useParams } from "react-router-dom";
+
 import { CardIndexContext } from "../context/IndexContext";
 
 
-function Card(props) {
+function Card() {
   const {notesData,setNotesData} = useContext(NotesDataContext)
   const {contextCardIndex,setContextCardIndex} = useContext(CardIndexContext);
   
